@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    padding-top: 44px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    outline: none;
+    padding-left: 35px;
+}
+
+.input-adress {
+    width: 690px;
+    height: 40px;
+    background-image: url(../img/home.svg);
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #595959;
+    line-height: 24px;
+}
+
+.button-primary {
+    background: #1890ff;
+    border: 1px solid#1890ff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.button-icon {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.button-text {
+    vertical-align: middle;
+}
+
+.promo {
+    box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
+    background: #FFF1B8 url(../img/promo-img.png) no-repeat top right -200px / 1000px;
+    border-radius: 10px;
+    padding: 68px 70px;
+}
+
+.promo-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #302C34;
+    max-width: 538px;
+}
+
+.input-search {
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+}
